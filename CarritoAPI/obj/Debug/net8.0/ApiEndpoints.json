@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "CarritoAPI.Controllers.CartController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Cart/{carId}/add-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productDTO",
+        "Type": "CarritoAPI.DTOs.ProductDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "carId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarritoAPI.Controllers.CartController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Cart/{cartId}/delete-product/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarritoAPI.Controllers.CartController",
+    "Method": "GetCartStatus",
+    "RelativePath": "api/Cart/{cartId}/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarritoAPI.Controllers.CartController",
+    "Method": "CreateCart",
+    "RelativePath": "api/Cart/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarritoAPI.Controllers.CartController",
+    "Method": "DeleteCart",
+    "RelativePath": "api/Cart/delete/{cartId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarritoAPI.Controllers.CartController",
+    "Method": "GetExpensiveProductsPerUser",
+    "RelativePath": "api/Cart/user/{dni}/expensive-products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
